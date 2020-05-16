@@ -26,9 +26,9 @@ const variables = `
 `
 const data = await fetchGraphQL(
   'https://yourAPI.com/graphql', 
-  { 'header1': 'headerValue1', ...headers },
   query,
-  variables
+  variables,
+  { 'header1': 'headerValue1', ...headers }
 );
 
 ```

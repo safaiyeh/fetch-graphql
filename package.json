@@ -1,10 +1,12 @@
 {
   "name": "fetch-graphql",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "GraphQL fetch client",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/safaiyeh/fetch-graphql",
   "author": "Jason Safaiyeh <safaiyeh@protonmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {}
 }

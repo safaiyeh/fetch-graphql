@@ -1,4 +1,4 @@
-function fetchGraphQL(url, headers, query, variables) {
+function fetchGraphQL(url, query, variables, headers) {
     return new Promise((resolve, reject) => {
         fetch(url, {
             method: 'POST',
