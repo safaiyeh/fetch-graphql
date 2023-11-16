@@ -7,6 +7,7 @@
   "repository": "https://github.com/safaiyeh/fetch-graphql",
   "author": "Jason Safaiyeh <safaiyeh@protonmail.com>",
   "license": "MIT",
-  "private": false,
-  "dependencies": {}
+  "contributors": [
+    "Linus Unnebäck <linus@folkdatorn.se>"
+  ]
 }

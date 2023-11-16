@@ -1,9 +1,5 @@
-declare module 'fetch-graphql' {
-    function fetchGraphQL(
-        url: string,
-        query: string,
-        variables?: string,
-        headers?: object
-    ): Promise<any>
-    export = fetchGraphQL;
+export class GraphQLError extends Error {
+    constructor (message: string)
 }
+
+export default function graphql (url: string, query: string, variables?: object, headers?: object): Promise<object>
